@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 import os
-apikey = os.getenv("sk_3ZJWw2Uy99JTiNibydDfkBUP")
+apikey = os.getenv("sk_zz3ZJWw2Uy99JTiNibydDfkBUP")
 def post_request(msg: str):
     # Convert DataFrame to CSV string
     # csv_data = df.to_csv(index=False)
